@@ -8,8 +8,7 @@ This document provides comprehensive step-by-step instructions for testing the b
 - All project files from the repository
 
 ## Environment Setup
-
-1. **Set up a Python virtual environment** (recommended):
+ **Set up a Python virtual environment** (recommended):
    ```bash
    python -m venv venv
    
@@ -18,11 +17,6 @@ This document provides comprehensive step-by-step instructions for testing the b
    
    # On Windows
    venv\Scripts\activate
-   ```
-
-2. **Install dependencies** (if any):
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ## Network Setup
