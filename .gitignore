@@ -1,11 +1,25 @@
-echo "venv/" > .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "*.pyo" >> .gitignore
-echo "*.pyd" >> .gitignore
-echo "*.so" >> .gitignore
-echo "*.egg" >> .gitignore
-echo "*.egg-info/" >> .gitignore
-echo "dist/" >> .gitignore
-echo "build/" >> .gitignore
-echo ".env" >> .gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local development settings
+.env
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+Thumbs.db
